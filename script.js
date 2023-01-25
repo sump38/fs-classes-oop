@@ -3,8 +3,8 @@ const userName = 'Moshe';
 
 setTimeout(() => {
     //local variable
-    const _name = 'Yaron';
-    console.log(_name);
+    const userName = 'Yaron';
+    console.log(userName);
 },1000);
 
 
