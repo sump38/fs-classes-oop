@@ -9,7 +9,17 @@ const Person = {
     },
     setFirstName: function(newFirstName){
       this.firstName = newFirstName;  
+    },
+    addChild: function(childName){
+
+    },
+    removeChild: function(childName){
+
+    },
+    renderChildren: function(){
+        //returns list of children
     }
+
 }
 
 Person.setFirstName('Yaron');
