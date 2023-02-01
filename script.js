@@ -32,8 +32,10 @@ class Teacher extends Human {
 }
 
 class Classroom {
-    constructor() {
-        //???
+    constructor(name, teacher, students = []) {
+        this.name = name;
+        this.teacher = teacher;
+        this.students = students;
     }
 }
 
