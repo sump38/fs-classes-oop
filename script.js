@@ -26,10 +26,15 @@ class Student extends Human {
 
 class Teacher extends Human {
     constructor(firstName, lastName, topic) {
-        this.firstName = firstName;
-        this.lastName = lastName;
+        super(firstName, lastName);
         this.topic = topic;
     }
-} 
+}
+
+class Classroom {
+    constructor() {
+        //???
+    }
+}
 
  const student = new Student('Moshe', 'Ben' , []);
